@@ -27,7 +27,7 @@ Assets from all **Zombies**, **Multiplayer**, and **Campaign** maps.
 ### ⚙️ Physics & Surfaces
 - PhysPresets / PhysConstraints
 - SurfaceFxTables
-- 
+  
 ## 🛠️ Installation
 
 1. Click and Download this link https://sites.google.com/view/midgetblaster/t7-assets for all the images, sounds, models, and textures. 50gb+ so make some space.
