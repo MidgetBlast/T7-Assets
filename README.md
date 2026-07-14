@@ -1,20 +1,52 @@
-# T7 Asset Pack for Black Ops 3 Mod Tools
-# Assets from all Zombies, Multiplayer, and Campaign maps.
-# Includes
->
---Models (with LODs)
---Images/Materials
---Animations/Scriptbundles/Siege Models/XCams
---FX/PostFxBundles
---Skyboxes/Luts
---Characters/Zombies/AI/Weapons/UI
---Turrets/Beams/Rumbles/Tracers/Shellshocks/ImpactsFxTable
---ImpactSoundsTables/PhysPresets/PhysConstraints/SurfaceFxTables
---Vehicles/VehicleRiders/VehicleFxDef
+# T7 Asset Pack — Black Ops 3 Mod Tools
+Assets from all **Zombies**, **Multiplayer**, and **Campaign** maps.
 
-# Installation
+---
+
+## 📦 Includes
+
+### 🧍 Characters & Entities
+- Characters / Zombies / AI
+- Weapons / UI
+- Turrets / Beams
+
+### 🎭 Animations & Models
+- Models (with LODs)
+- Animations / Scriptbundles / Siege Models / XCams
+- Vehicles / VehicleRiders / VehicleFxDef
+
+### 🎨 Images & Materials
+- Images / Materials
+- Skyboxes / Luts
+
+### 💥 Effects & Audio
+- FX / PostFxBundles
+- Rumbles / Tracers / Shellshocks
+- ImpactsFxTable / ImpactSoundsTables
+
+### ⚙️ Physics & Surfaces
+- PhysPresets / PhysConstraints
+- SurfaceFxTables
+
+---
+
+## 🛠️ Installation
 
 1. Open the **T7 Assets** folder
 2. Drag and drop all folder contents into your **Black Ops 3 root directory**
 
-If you are using other Black Ops 3 asset packs you may encounter duplicate errors.
+> ⚠️ **Warning:** If you are using other Black Ops 3 asset packs you may encounter duplicate errors.
+
+---
+
+## 🙏 Credits
+
+| Name | Contribution |
+|---|---|
+| **Spiki** | Spiki Software & Oral Support |
+| **Scobalula** | Greyhound / Hydrax |
+| **Serious** | Decompiled Black Ops 3 Scripts |
+
+---
+
+*For issues or questions, open a GitHub Issue on this repo.*
