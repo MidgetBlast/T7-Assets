@@ -1,15 +1,16 @@
 # T7 Asset Pack for Black Ops 3 Mod Tools
 # Assets from all Zombies, Multiplayer, and Campaign maps.
 # Includes
-> Models (with LODs)
-Images/Materials
-Animations/Scriptbundles/Siege Models/XCams
-FX/PostFxBundles
-Skyboxes/Luts
-Characters/Zombies/AI/Weapons/UI
-Turrets/Beams/Rumbles/Tracers/Shellshocks/ImpactsFxTable
-ImpactSoundsTables/PhysPresets/PhysConstraints/SurfaceFxTables
-Vehicles/VehicleRiders/VehicleFxDef
+>
+--Models (with LODs)
+--Images/Materials
+--Animations/Scriptbundles/Siege Models/XCams
+--FX/PostFxBundles
+--Skyboxes/Luts
+--Characters/Zombies/AI/Weapons/UI
+--Turrets/Beams/Rumbles/Tracers/Shellshocks/ImpactsFxTable
+--ImpactSoundsTables/PhysPresets/PhysConstraints/SurfaceFxTables
+--Vehicles/VehicleRiders/VehicleFxDef
 
 # Installation
 
