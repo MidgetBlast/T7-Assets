@@ -32,7 +32,7 @@ Assets from all **Zombies**, **Multiplayer**, and **Campaign** maps.
 
 ## 🛠️ Installation
 
-1. Download this https://sites.google.com/view/midgetblaster/t7-assets 50gb+ Assets for all the images, sounds, models, and textures.
+1. Click and Download this link https://sites.google.com/view/midgetblaster/t7-assets for all the images, sounds, models, and textures. 50gb+ so make some space.
 2. Open the **T7 Assets** folder
 3. Drag and drop all folder contents into your **Black Ops 3 root directory**
 
