@@ -36,8 +36,6 @@ Assets from all **Zombies**, **Multiplayer**, and **Campaign** maps.
 
 ⚠️ **Warning:** If you are using other Black Ops 3 asset packs you may encounter duplicate errors.
 
----
-
 ## 🙏 Credits
 
 | Name | Contribution |
