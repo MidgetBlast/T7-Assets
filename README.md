@@ -36,7 +36,7 @@ Assets from all **Zombies**, **Multiplayer**, and **Campaign** maps.
 2. Open the **T7 Assets** folder
 3. Drag and drop all folder contents into your **Black Ops 3 root directory**
 
-> ⚠️ **Warning:** If you are using other Black Ops 3 asset packs you may encounter duplicate errors.
+⚠️ **Warning:** If you are using other Black Ops 3 asset packs you may encounter duplicate errors.
 
 ---
 
