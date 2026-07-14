@@ -1,5 +1,5 @@
-# T7 Asset Pack - Black Ops 3 Mod Tools
-# Assets from all Zombies / Multiplayer / Campaign maps in Black Ops 3.
+# T7 Asset Pack for Black Ops 3 Mod Tools
+# Assets from all Zombies, Multiplayer, and Campaign maps.
 # Includes
 Models (with LODs)
 Images/Materials
