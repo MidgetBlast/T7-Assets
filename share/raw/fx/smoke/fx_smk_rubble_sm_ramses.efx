@@ -1,0 +1,296 @@
+iwfx 3
+
+	editorFlags;
+	efFlags efUseBoundingBox efLocalBoundingBox efPortalledBoundingBox;
+	efPriority 45;
+	efBoundingBoxMin -45 -45 -20;
+	efBoundingBoxMax 85 45 140;
+	occlusionQueryDepthBias 0;
+	occlusionQueryFadeIn 0;
+	occlusionQueryFadeOut 0;
+	occlusionQueryScaleRange 1 0;
+	normalsShape 0;
+	normalsShapeOffset 0 0 0;
+	normalsShapeRadius 0;
+	normalsShapeLength 0;
+	normalsShapeAngles 0 0 0;
+	normalsShapeVisualizationColor 0 0 0 0;
+	efCompletion 0;
+	lodDefault0 0 0;
+	lodDefault1 0 0;
+	lodDefault2 0 0;
+	lodDefault3 0 0;
+{
+	name "0_smoke_start";
+	editorFlags looping useRandColor useRandAlpha useRandSize0 useRandRotDelta useRandVel0;
+	flags spawnRelative spawnOffsetNone runRelToEffect disableAlphaCulling;
+	extraFlags;
+	spawnRange 0 1500;
+	fadeInRange 1200 300;
+	fadeOutRange 0 200;
+	spawnFrustumCullRadius 2000;
+	spawnLooping 300 0;
+	spawnLoopingSpawnCount 1 0;
+	spawnOneShot 0 0;
+	spawnDelayMsec 0 10;
+	lifeSpanMsec 1500 700;
+	spawnOrgX -5 10;
+	spawnOrgY -5 10;
+	spawnOrgZ -5 10;
+	spawnOffsetRadius 1 0;
+	spawnOffsetHeight 1 0;
+	spawnAnglePitch 0 0;
+	spawnAngleYaw 0 0;
+	spawnAngleRoll 0 0;
+	angleVelPitch 0 0;
+	angleVelYaw 0 0;
+	angleVelRoll 0 0;
+	initialRot -90 270;
+	rotationAxis 0 0 0 1;
+	gravity 0 0;
+	elasticity 1 0;
+	windinfluence 0;
+	atlasBehavior startFixed playOverLife loopOnlyNTimes;
+	atlasIndex 0;
+	atlasFps 30;
+	atlasLoopCount 9;
+	atlasColIndexBits 0;
+	atlasRowIndexBits 0;
+	atlasEntryCount 0;
+	atlasIndexRange 0;
+	velGraph0X 100
+	{
+		{
+			0 0.466484
+			1 0.386098
+		}
+		{
+			0 0.35569
+			1 0.275317
+		}
+	};
+	velGraph0Y 10
+	{
+		{
+			0 -0.246412
+			1 -0.471292
+		}
+		{
+			0 0.251196
+			1 0.5
+		}
+	};
+	velGraph0Z 50
+	{
+		{
+			0 0.5
+			0.421512 0.5
+			0.633721 0.141148
+			1 0.0454545
+		}
+		{
+			0 0.404306
+			0.383721 0.5
+			0.709302 0.356459
+			1 0.0789474
+		}
+	};
+	velGraph1X 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Y 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Z 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	rotGraph 120
+	{
+		{
+			0 0.5
+			1 0.184488
+		}
+		{
+			0 -0.5
+			1 -0.143151
+		}
+	};
+	sizeGraph0 75
+	{
+		{
+			0 0.279221
+			0.211765 0.396104
+			0.414706 0.564935
+			0.576471 0.753247
+			0.802941 0.948052
+			1 1
+		}
+		{
+			0 0.428571
+			0.158824 0.714286
+			0.438235 0.818182
+			1 0.896104
+		}
+	};
+	sizeGraph1 2
+	{
+		{
+			0 1
+			1 0
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	scaleGraph 1
+	{
+		{
+			0 1
+			1 0
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	colorGraph 1
+	{
+		{
+			0 0.027483 0.027483 0.027483
+			1 0.0220465 0.0220465 0.0220465
+		}
+		{
+			0 0.0517747 0.0517747 0.0517747
+			1 0.0669554 0.0669554 0.0669554
+		}
+	};
+	alphaGraph 1
+	{
+		{
+			0 0
+			0.133721 1
+			0.457163 0.927415
+			0.601628 0.578249
+			0.669745 0.305638
+			0.773256 0.0813397
+			1 0
+		}
+		{
+			0 0
+			0.168605 1
+			0.428093 0.831721
+			0.526046 0.544756
+			0.621465 0.219397
+			0.767442 0.0430622
+			1 0
+		}
+	};
+	lightIntensityGraph 10000
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	lightRadiusGraph 100
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	lightFovGraph 90
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	inheritParentMovementGraph 1
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	lightingFrac 0.1;
+	collOffset 0 0 0;
+	collRadius 0;
+	fxOnImpact "";
+	fxOnDeath "";
+	displacement 0;
+	emission "";
+	emitDist 1 0;
+	emitDistVariance 0 0;
+	attachment "";
+	trailSplitDist 0;
+	trailScrollTime 0;
+	trailRepeatDist 0;
+	alphafadetimemsec 0;
+	maxwind_mag 0;
+	maxwind_life 0;
+	maxwind_interval 1;
+	billboardTopWidth 1;
+	billboardBottomWidth 1;
+	elemSpawnSound
+	{
+	};
+	elemFollowSound
+	{
+	};
+	cloudDensity 1024 0;
+	spotLightFovInnerFraction 0.5;
+	spotLightStartRadius 36;
+	spotLightEndRadius 196;
+	alphaDissolve 1;
+	zFeather 100;
+	falloffBeginAngle 65;
+	falloffEndAngle 85;
+	billboardPivot 0 0;
+	levelOfDetail 0;
+	billboardSprite
+	{
+		"gfx_smk_whisp_anim_02_lit"
+	};
+}

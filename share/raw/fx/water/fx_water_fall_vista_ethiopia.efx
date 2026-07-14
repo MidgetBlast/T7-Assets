@@ -1,0 +1,310 @@
+iwfx 3
+
+	editorFlags;
+	efFlags efUseBoundingBox efLocalBoundingBox efPortalledBoundingBox;
+	efPriority 65;
+	efBoundingBoxMin -150 -160 -499.714;
+	efBoundingBoxMax 169.712 160 154.225;
+	occlusionQueryDepthBias 0;
+	occlusionQueryFadeIn 0;
+	occlusionQueryFadeOut 0;
+	occlusionQueryScaleRange 1 0;
+	normalsShape 0;
+	normalsShapeOffset 0 0 0;
+	normalsShapeRadius 0;
+	normalsShapeLength 0;
+	normalsShapeAngles 0 0 0;
+	normalsShapeVisualizationColor 0 0 0 0;
+	efCompletion 0;
+	lodDefault0 0 1200;
+	lodDefault1 750.1 749.9;
+	lodDefault2 1510 1990;
+	lodDefault3 0 0;
+{
+	name "water_splash_";
+	editorFlags looping useRandColor useRandSize0 useRandRotDelta useRandIntensity useRandVel0 useRandVel1 absVel1;
+	flags spawnRelative spawnOffsetNone runRelToSpawn useBillboardPivot;
+	extraFlags overwaterOnly;
+	spawnRange 0 0;
+	fadeInRange 0 0;
+	fadeOutRange 200 50;
+	spawnFrustumCullRadius 0;
+	spawnLooping 200 0;
+	spawnLoopingSpawnCount 1 0;
+	spawnOneShot 9 9;
+	spawnDelayMsec 0 0;
+	lifeSpanMsec 2000 200;
+	spawnOrgX 0 0;
+	spawnOrgY -20 40;
+	spawnOrgZ 0 0;
+	spawnOffsetRadius 0 8;
+	spawnOffsetHeight 60 20;
+	spawnAnglePitch 0 0;
+	spawnAngleYaw 0 0;
+	spawnAngleRoll 0 0;
+	angleVelPitch 0 0;
+	angleVelYaw 0 0;
+	angleVelRoll 0 0;
+	initialRot -360 360;
+	rotationAxis 0 0 0 1;
+	gravity 20 0;
+	elasticity 0 0;
+	windinfluence 0;
+	atlasBehavior startFixed playOverLife loopOnlyNTimes lerpFrames;
+	atlasIndex 0;
+	atlasFps 90;
+	atlasLoopCount 0;
+	atlasColIndexBits 0;
+	atlasRowIndexBits 0;
+	atlasEntryCount 0;
+	atlasIndexRange 20;
+	velGraph0X 500
+	{
+		{
+			0 0.49908
+			0.341392 0.128017
+			1 0.00216988
+		}
+		{
+			0 0.5
+			0.345606 0.200172
+			1 0.0324911
+		}
+	};
+	velGraph0Y 0
+	{
+		{
+			0 0.5
+			1 0.00248448
+		}
+		{
+			0 -0.5
+			1 -0.0047205
+		}
+	};
+	velGraph0Z 33.8
+	{
+		{
+			0 0.5
+			1 0
+		}
+		{
+			0 0.5
+			1 0
+		}
+	};
+	velGraph1X 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Y 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Z 676
+	{
+		{
+			0 -0.142236
+			1 -0.5
+		}
+		{
+			0 0.0110016
+			1 -0.370311
+		}
+	};
+	rotGraph 100
+	{
+		{
+			0 -0.5
+			1 0
+		}
+		{
+			0 0.5
+			1 0
+		}
+	};
+	sizeGraph0 700
+	{
+		{
+			0 0
+			0.0844245 0.186207
+			1 1
+		}
+		{
+			0 0
+			1 1
+		}
+	};
+	sizeGraph1 100
+	{
+		{
+			0 0
+			1 1
+		}
+		{
+			0 0
+			1 0.79297
+		}
+	};
+	scaleGraph 1
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	childSizeScaleGraph 1
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	colorGraph 1
+	{
+		{
+			0 0.759878 0.655613 0.491274
+			1 0.759878 0.655613 0.491274
+		}
+		{
+			0 0.759878 0.655613 0.491274
+			1 0.759878 0.655613 0.491274
+		}
+	};
+	alphaGraph 1
+	{
+		{
+			0 0
+			0.0297553 1
+			0.511889 1
+			1 0
+		}
+		{
+			0 0
+			0.179818 0.917069
+			0.840619 0.899924
+			1 0
+		}
+	};
+	lightIntensityGraph 0
+	{
+		{
+			0 0.186207
+			1 0.148966
+		}
+		{
+			0 0.186207
+			1 0.148966
+		}
+	};
+	lightRadiusGraph 0
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	lightFovGraph 0
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	inheritParentMovementGraph 1
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	attractorGraph 1
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	attractorLocalPosition 0 0 0;
+	lightingFrac 0;
+	collOffset 0 0 0;
+	collRadius 0;
+	fxOnImpact "";
+	fxOnDeath "";
+	displacement 50;
+	emission "";
+	emitDist 1 0;
+	emitDistVariance 0 0;
+	emitDensity 1 0;
+	emitSizeForDensity 1;
+	attachment "";
+	attachmentDensity 1 0;
+	attachmentSizeForDensity 1;
+	trailSplitDist 100;
+	trailScrollTime 0;
+	trailRepeatDist 100;
+	trailFadeInDist 0;
+	trailFadeOutDist 0;
+	alphafadetimemsec 0;
+	maxwind_mag 0;
+	maxwind_life 0;
+	maxwind_interval 0;
+	elemSpawnSound
+	{
+	};
+	elemFollowSound
+	{
+	};
+	cloudDensity 0 0;
+	spotLightFovInnerFraction 0;
+	spotLightStartRadius 0;
+	spotLightEndRadius 0;
+	alphaDissolve 0.392157;
+	zFeather 100;
+	falloffBeginAngle 60;
+	falloffEndAngle 80;
+	billboardPivot 0 0.2;
+	levelOfDetail 0;
+	billboardSprite
+	{
+		"gfx_water_splash_em"
+	};
+}

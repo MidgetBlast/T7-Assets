@@ -1,0 +1,72 @@
+{
+    "states": {
+        "bamf_melee": {
+			"substates": {
+				"lunge_forward": {
+					"animation_selector": "lunge_forward@bamf_melee"
+				}
+			}
+        },
+        "debug": {
+			"substates": {
+				"void": {
+					"animation_selector": "void@debug"
+				}
+			}
+        },
+        "apothicon_fury": {
+			"substates": {
+				"death": {
+					"animation_selector": "death@apothicon_fury",
+					"terminal": true
+				},
+				"death_idgun": {
+					"animation_selector": "death_idgun@apothicon_fury",
+					"loopsync": true
+				},
+				"death_idgun_blackhole": {
+					"animation_selector": "death_idgun_blackhole@apothicon_fury",
+					"terminal": true
+				},
+				"idle": {
+					"animation_selector": "idle@apothicon_fury",
+					"loopsync": true,
+					"cleanloop": true
+				},
+				"juke": {
+					"animation_selector": "juke@apothicon_fury"
+				},
+				"melee": {
+					"animation_selector": "melee@apothicon_fury"
+				},
+				"move": {
+					"animation_selector": "move@apothicon_fury",
+					"loopsync": true,
+					"cleanloop": true,
+					"multipledelta": true
+				},
+				"moving_death": {
+					"animation_selector": "moving_death@apothicon_fury",
+					"terminal": true
+				},
+				"pain": {
+					"animation_selector": "pain@apothicon_fury",
+					"loopsync": true,
+					"cleanloop": true,
+					"multipledelta": true
+				},
+				"stun_tesla": {
+					"animation_selector": "stun_tesla@apothicon_fury",
+					"loopsync": true,
+					"cleanloop": true
+				},
+				"taunt": {
+					"animation_selector": "taunt@apothicon_fury"
+				},
+				"traverse": {
+					"animation_selector": "traversal@apothicon_fury"
+				}
+			}
+        }
+    }
+}

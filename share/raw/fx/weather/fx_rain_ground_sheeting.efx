@@ -1,0 +1,939 @@
+iwfx 3
+
+	editorFlags;
+	efFlags efUseBoundingBox efLocalBoundingBox efPortalledBoundingBox;
+	efPriority 7;
+	efBoundingBoxMin -25 -100 -5;
+	efBoundingBoxMax 300 100 10;
+	occlusionQueryDepthBias 0;
+	occlusionQueryFadeIn 0;
+	occlusionQueryFadeOut 0;
+	occlusionQueryScaleRange 1 0;
+	normalsShape 0;
+	normalsShapeOffset 0 0 0;
+	normalsShapeRadius 0;
+	normalsShapeLength 0;
+	normalsShapeAngles 0 0 0;
+	normalsShapeVisualizationColor 0 0 0 0;
+	efCompletion 3;
+	lodDefault0 0 800;
+	lodDefault1 800.1 949.9;
+	lodDefault2 0 0;
+	lodDefault3 0 0;
+{
+	name "0_wash_flat";
+	editorFlags looping useRandAlpha useRandSize0 useRandSize1 useRandVel0 useRandVel1 useBackCompatVel absVel1;
+	flags spawnRelative spawnFrustumCull spawnOffsetNone runRelToSpawn nonUniformScale useRotationAxis useBillboardPivot;
+	extraFlags;
+	spawnRange 0 800;
+	fadeInRange 0 0;
+	fadeOutRange 0 0;
+	spawnFrustumCullRadius 325;
+	spawnLooping 350 0;
+	spawnLoopingSpawnCount 1 0;
+	spawnOneShot 1 0;
+	spawnDelayMsec 0 200;
+	lifeSpanMsec 650 150;
+	spawnOrgX 0 70;
+	spawnOrgY -40 80;
+	spawnOrgZ 0 1;
+	spawnOffsetRadius 5 0;
+	spawnOffsetHeight 5 5;
+	spawnAnglePitch 0 0;
+	spawnAngleYaw 175 10;
+	spawnAngleRoll 0 0;
+	angleVelPitch 0 0;
+	angleVelYaw 0 0;
+	angleVelRoll 0 0;
+	initialRot 140 80;
+	rotationAxis 0 0.707107 0 0.707107;
+	gravity 0 0;
+	elasticity 1 0;
+	windinfluence 0;
+	atlasBehavior startRandom lerpFrames;
+	atlasIndex 0;
+	atlasFps 120;
+	atlasLoopCount 0;
+	atlasColIndexBits 0;
+	atlasRowIndexBits 0;
+	atlasEntryCount 0;
+	atlasIndexRange 0;
+	velGraph0X 15
+	{
+		{
+			0 0.363773
+			0.156056 0.389328
+			0.323889 0.467413
+			0.555028 0.452017
+			0.777333 0.334338
+			1 0.312467
+		}
+		{
+			0 0.387821
+			0.340084 0.416415
+			0.59625 0.496008
+			1 0.437312
+		}
+	};
+	velGraph0Y 150
+	{
+		{
+			0 0.381337
+			0.34331 0.492097
+			0.748289 0.5
+			1 0.276134
+		}
+		{
+			0 -0.36488
+			0.377741 -0.492912
+			0.740628 -0.5
+			1 -0.267866
+		}
+	};
+	velGraph0Z -1
+	{
+		{
+			0 0.150718
+			1 0.5
+		}
+		{
+			0 -0.00117911
+			1 0.00136057
+		}
+	};
+	velGraph1X 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Y 100
+	{
+		{
+			0 -0.000407331
+			0.5035 0.5
+			1 0.5
+		}
+		{
+			0 -0.00509165
+			0.504972 -0.5
+			1 -0.5
+		}
+	};
+	velGraph1Z -0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	rotGraph 0
+	{
+		{
+			0 -0.0749004
+			0.387194 -0.128676
+			0.615389 0.0263951
+			0.805306 0.382729
+			1 0.5
+		}
+		{
+			0 0.0898367
+			0.385722 0.139674
+			0.621278 -0.048391
+			0.837694 -0.416823
+			1 -0.5
+		}
+	};
+	sizeGraph0 200
+	{
+		{
+			0 0.498057
+			1 0.722851
+		}
+		{
+			0 0.698185
+			1 1
+		}
+	};
+	sizeGraph1 200
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 0.653677
+			1 0.850228
+		}
+	};
+	scaleGraph 1
+	{
+		{
+			0 1
+			1 0
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	childSizeScaleGraph 1
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	colorGraph 1
+	{
+		{
+			0 0.823529 0.823529 0.823529
+			1 0.823529 0.823529 0.823529
+		}
+		{
+			0 0.901961 0.823529 0.682353
+			1 0.94902 0.905882 0.815686
+		}
+	};
+	alphaGraph 1
+	{
+		{
+			0 0
+			0.395896 0.502171
+			0.600876 0.498057
+			1 0
+		}
+		{
+			0 0
+			0.422847 0.2392
+			0.5964 0.235086
+			1 0
+		}
+	};
+	lightIntensityGraph 10000
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	lightRadiusGraph 100
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	lightFovGraph 90
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	inheritParentMovementGraph 1
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	attractorGraph 1
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	attractorLocalPosition 0 0 0;
+	lightingFrac 0;
+	collOffset 0 -0 -0;
+	collRadius 0;
+	fxOnImpact "";
+	fxOnDeath "";
+	displacement 5;
+	emission "";
+	emitDist 1 0;
+	emitDistVariance 0 0;
+	emitDensity 1 0;
+	emitSizeForDensity 1;
+	attachment "";
+	attachmentDensity 1 0;
+	attachmentSizeForDensity 1;
+	trailSplitDist 0;
+	trailScrollTime 0;
+	trailRepeatDist 0;
+	trailFadeInDist 0;
+	trailFadeOutDist 0;
+	alphafadetimemsec 0;
+	maxwind_mag 0;
+	maxwind_life 0;
+	maxwind_interval 1;
+	elemSpawnSound
+	{
+	};
+	elemFollowSound
+	{
+	};
+	cloudDensity 1024 0;
+	spotLightFovInnerFraction 0.5;
+	spotLightStartRadius 36;
+	spotLightEndRadius 196;
+	alphaDissolve 1;
+	zFeather 5;
+	falloffBeginAngle 83;
+	falloffEndAngle 87;
+	lfSourceDir 1 0 0;
+	lfSourceSize 15;
+	billboardPivot 0 -0.25;
+	levelOfDetail 1;
+	rotatedSprite
+	{
+		"gfx_fog_slow_sm_anim_lit"
+	};
+}
+{
+	name "1_streams_flat";
+	editorFlags looping useRandAlpha useRandSize0 useRandSize1 useRandVel0 useRandVel1 useBackCompatVel absVel1;
+	flags spawnRelative spawnFrustumCull spawnOffsetNone runRelToSpawn nonUniformScale useRotationAxis useBillboardPivot;
+	extraFlags;
+	spawnRange 800.1 949.9;
+	fadeInRange 0 0;
+	fadeOutRange 0 0;
+	spawnFrustumCullRadius 325;
+	spawnLooping 450 0;
+	spawnLoopingSpawnCount 1 0;
+	spawnOneShot 1 0;
+	spawnDelayMsec 0 0;
+	lifeSpanMsec 800 400;
+	spawnOrgX -5 5;
+	spawnOrgY -100 200;
+	spawnOrgZ 0 1;
+	spawnOffsetRadius 5 0;
+	spawnOffsetHeight 5 5;
+	spawnAnglePitch 0 0;
+	spawnAngleYaw 175 10;
+	spawnAngleRoll 0 0;
+	angleVelPitch 0 0;
+	angleVelYaw 0 0;
+	angleVelRoll 0 0;
+	initialRot 175 10;
+	rotationAxis 0 0.707107 0 0.707107;
+	gravity 0 0;
+	elasticity 1 0;
+	windinfluence 0;
+	atlasBehavior startRandom lerpFrames;
+	atlasIndex 0;
+	atlasFps 15;
+	atlasLoopCount 0;
+	atlasColIndexBits 0;
+	atlasRowIndexBits 0;
+	atlasEntryCount 0;
+	atlasIndexRange 0;
+	velGraph0X 300
+	{
+		{
+			0 0.363773
+			0.156056 0.389328
+			0.323889 0.467413
+			0.555028 0.452017
+			0.777333 0.334338
+			1 0.312467
+		}
+		{
+			0 0.387821
+			0.340084 0.416415
+			0.59625 0.496008
+			1 0.437312
+		}
+	};
+	velGraph0Y 80
+	{
+		{
+			0 0.00282296
+			0.3975 -0.21556
+			0.752254 0.2552
+			1 -0.14558
+		}
+		{
+			0 -0.00282296
+			0.424 0.218859
+			0.760453 -0.325699
+			1 0.162077
+		}
+	};
+	velGraph0Z -1
+	{
+		{
+			0 0.150718
+			1 0.5
+		}
+		{
+			0 -0.00117911
+			1 0.00136057
+		}
+	};
+	velGraph1X 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Y 100
+	{
+		{
+			0 -0.000407331
+			0.544722 0.5
+			1 0.5
+		}
+		{
+			0 -0.00509165
+			0.54325 -0.5
+			1 -0.5
+		}
+	};
+	velGraph1Z -0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	rotGraph 0
+	{
+		{
+			0 -0.0749004
+			0.387194 -0.128676
+			0.615389 0.0263951
+			0.805306 0.382729
+			1 0.5
+		}
+		{
+			0 0.0898367
+			0.385722 0.139674
+			0.621278 -0.048391
+			0.837694 -0.416823
+			1 -0.5
+		}
+	};
+	sizeGraph0 195
+	{
+		{
+			0 1
+			1 0.722851
+		}
+		{
+			0 0.698185
+			1 1
+		}
+	};
+	sizeGraph1 300
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 0.653677
+			1 0.850228
+		}
+	};
+	scaleGraph 1
+	{
+		{
+			0 1
+			1 0
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	childSizeScaleGraph 1
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	colorGraph 1
+	{
+		{
+			0 0.823529 0.823529 0.823529
+			1 0.823529 0.823529 0.823529
+		}
+		{
+			0 0.901961 0.823529 0.682353
+			1 0.94902 0.905882 0.815686
+		}
+	};
+	alphaGraph 1
+	{
+		{
+			0 0
+			0.116306 0.186965
+			0.343028 1
+			0.598233 1
+			0.853889 0.244155
+			1 0
+		}
+		{
+			0 0
+			0.373944 0.728066
+			0.597722 0.70607
+			1 0
+		}
+	};
+	lightIntensityGraph 10000
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	lightRadiusGraph 100
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	lightFovGraph 90
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	inheritParentMovementGraph 1
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	attractorGraph 1
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	attractorLocalPosition 0 0 0;
+	lightingFrac 0;
+	collOffset 0 -0 -0;
+	collRadius 0;
+	fxOnImpact "";
+	fxOnDeath "";
+	displacement 5;
+	emission "";
+	emitDist 1 0;
+	emitDistVariance 0 0;
+	emitDensity 1 0;
+	emitSizeForDensity 1;
+	attachment "";
+	attachmentDensity 1 0;
+	attachmentSizeForDensity 1;
+	trailSplitDist 0;
+	trailScrollTime 0;
+	trailRepeatDist 0;
+	trailFadeInDist 0;
+	trailFadeOutDist 0;
+	alphafadetimemsec 0;
+	maxwind_mag 0;
+	maxwind_life 0;
+	maxwind_interval 1;
+	elemSpawnSound
+	{
+	};
+	elemFollowSound
+	{
+	};
+	cloudDensity 1024 0;
+	spotLightFovInnerFraction 0.5;
+	spotLightStartRadius 36;
+	spotLightEndRadius 196;
+	alphaDissolve 1;
+	zFeather 5;
+	falloffBeginAngle 83;
+	falloffEndAngle 87;
+	lfSourceDir 1 0 0;
+	lfSourceSize 15;
+	billboardPivot 0 -0.25;
+	levelOfDetail 2;
+	rotatedSprite
+	{
+		"gfx_dust_fall_lg_anim_lit"
+	};
+}
+{
+	name "0_streams_flat";
+	editorFlags looping useRandAlpha useRandSize0 useRandSize1 useRandVel0 useRandVel1 useBackCompatVel absVel1;
+	flags spawnRelative spawnFrustumCull spawnOffsetNone runRelToSpawn nonUniformScale useRotationAxis useBillboardPivot;
+	extraFlags;
+	spawnRange 0 800;
+	fadeInRange 0 0;
+	fadeOutRange 0 0;
+	spawnFrustumCullRadius 325;
+	spawnLooping 350 0;
+	spawnLoopingSpawnCount 1 0;
+	spawnOneShot 1 0;
+	spawnDelayMsec 0 200;
+	lifeSpanMsec 800 400;
+	spawnOrgX -5 5;
+	spawnOrgY -80 160;
+	spawnOrgZ 0 1;
+	spawnOffsetRadius 5 0;
+	spawnOffsetHeight 5 5;
+	spawnAnglePitch 0 0;
+	spawnAngleYaw 175 10;
+	spawnAngleRoll 0 0;
+	angleVelPitch 0 0;
+	angleVelYaw 0 0;
+	angleVelRoll 0 0;
+	initialRot 175 10;
+	rotationAxis 0 0.707107 0 0.707107;
+	gravity 0 0;
+	elasticity 1 0;
+	windinfluence 0;
+	atlasBehavior startRandom lerpFrames;
+	atlasIndex 0;
+	atlasFps 26;
+	atlasLoopCount 0;
+	atlasColIndexBits 0;
+	atlasRowIndexBits 0;
+	atlasEntryCount 0;
+	atlasIndexRange 0;
+	velGraph0X 270
+	{
+		{
+			0 0.363773
+			0.156056 0.389328
+			0.323889 0.467413
+			0.555028 0.452017
+			0.777333 0.334338
+			1 0.312467
+		}
+		{
+			0 0.387821
+			0.340084 0.416415
+			0.59625 0.496008
+			1 0.437312
+		}
+	};
+	velGraph0Y 40
+	{
+		{
+			0 0.00282296
+			0.3975 -0.21556
+			0.752254 0.2552
+			1 -0.14558
+		}
+		{
+			0 -0.00282296
+			0.424 0.218859
+			0.760453 -0.325699
+			1 0.162077
+		}
+	};
+	velGraph0Z -1
+	{
+		{
+			0 0.150718
+			1 0.5
+		}
+		{
+			0 -0.00117911
+			1 0.00136057
+		}
+	};
+	velGraph1X 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Y 100
+	{
+		{
+			0 -0.000407331
+			0.5035 0.5
+			1 0.5
+		}
+		{
+			0 -0.00509165
+			0.504972 -0.5
+			1 -0.5
+		}
+	};
+	velGraph1Z -0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	rotGraph 0
+	{
+		{
+			0 -0.0749004
+			0.387194 -0.128676
+			0.615389 0.0263951
+			0.805306 0.382729
+			1 0.5
+		}
+		{
+			0 0.0898367
+			0.385722 0.139674
+			0.621278 -0.048391
+			0.837694 -0.416823
+			1 -0.5
+		}
+	};
+	sizeGraph0 150
+	{
+		{
+			0 1
+			1 0.722851
+		}
+		{
+			0 0.698185
+			1 1
+		}
+	};
+	sizeGraph1 300
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 0.653677
+			1 0.850228
+		}
+	};
+	scaleGraph 1
+	{
+		{
+			0 1
+			1 0
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	childSizeScaleGraph 1
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	colorGraph 1
+	{
+		{
+			0 0.823529 0.823529 0.823529
+			1 0.823529 0.823529 0.823529
+		}
+		{
+			0 0.901961 0.823529 0.682353
+			1 0.94902 0.905882 0.815686
+		}
+	};
+	alphaGraph 1
+	{
+		{
+			0 0
+			0.373427 0.592686
+			0.600876 0.592686
+			1 0
+		}
+		{
+			0 0
+			0.404343 0.292686
+			0.600365 0.292686
+			1 0
+		}
+	};
+	lightIntensityGraph 10000
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	lightRadiusGraph 100
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	lightFovGraph 90
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	inheritParentMovementGraph 1
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	attractorGraph 1
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 1
+			1 1
+		}
+	};
+	attractorLocalPosition 0 0 0;
+	lightingFrac 0;
+	collOffset 0 -0 -0;
+	collRadius 0;
+	fxOnImpact "";
+	fxOnDeath "";
+	displacement 5;
+	emission "";
+	emitDist 1 0;
+	emitDistVariance 0 0;
+	emitDensity 1 0;
+	emitSizeForDensity 1;
+	attachment "";
+	attachmentDensity 1 0;
+	attachmentSizeForDensity 1;
+	trailSplitDist 0;
+	trailScrollTime 0;
+	trailRepeatDist 0;
+	trailFadeInDist 0;
+	trailFadeOutDist 0;
+	alphafadetimemsec 0;
+	maxwind_mag 0;
+	maxwind_life 0;
+	maxwind_interval 1;
+	elemSpawnSound
+	{
+	};
+	elemFollowSound
+	{
+	};
+	cloudDensity 1024 0;
+	spotLightFovInnerFraction 0.5;
+	spotLightStartRadius 36;
+	spotLightEndRadius 196;
+	alphaDissolve 1;
+	zFeather 5;
+	falloffBeginAngle 83;
+	falloffEndAngle 87;
+	lfSourceDir 1 0 0;
+	lfSourceSize 15;
+	billboardPivot 0 -0.25;
+	levelOfDetail 1;
+	rotatedSprite
+	{
+		"gfx_dust_fall_lg_anim_lit"
+	};
+}
