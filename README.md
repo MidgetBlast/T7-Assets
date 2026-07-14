@@ -44,7 +44,3 @@ Assets from all **Zombies**, **Multiplayer**, and **Campaign** maps.
 | **Spiki** | Spiki Software & Oral Support |
 | **Scobalula** | Greyhound / Hydrax |
 | **Serious** | Decompiled Black Ops 3 Scripts |
-
----
-
-*For issues or questions, open a GitHub Issue on this repo.*
